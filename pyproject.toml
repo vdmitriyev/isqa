@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "isqa"
 description = "A CLI utility for quality assurance of GitLab issues."
-version = "0.5.1"
+version = "0.5.2"
 readme = "README.md"
 authors = [
   {name = "vdmitriyev"}

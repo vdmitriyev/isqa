@@ -81,7 +81,7 @@ def main(
         bool,
         typer.Option(
             "--version",
-            help="Enable verbose outputs.",
+            help="Show version.",
         ),
     ] = False,
 ) -> None:
