@@ -16,6 +16,7 @@ vars:
 tasks:
 
   check-virtualenv:
+    internal: true
     desc: checks Python's virtualenv activation
     aliases: [cv]
     silent: true
