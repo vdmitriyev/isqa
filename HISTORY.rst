@@ -2,6 +2,11 @@
 History
 =======
 
+0.5.3(2026-03-16)
+------------------
+
+* Fix the issue with missing email templates in .txt format
+
 0.5.2 (2026-03-16)
 ------------------
 

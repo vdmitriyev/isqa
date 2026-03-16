@@ -1,0 +1,13 @@
+Dear {{ user_name }},
+
+Notification about the Gitlab repository: {{repository_name}}
+
+No assignee has been set for the GitLab issues:
+{{ issues_block }}
+
+If you think that you should not have received this email, contact your manager.
+
+Best Regards,
+{{team_name}}
+
+Automatic notification from `isqa`
