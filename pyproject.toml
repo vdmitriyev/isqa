@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "isqa"
 description = "A CLI utility for quality assurance of GitLab issues."
-version = "0.5.0"
+version = "0.5.1"
 readme = "README.md"
 authors = [
   {name = "vdmitriyev"}
@@ -19,7 +19,8 @@ dependencies = [
     "rich>=13.7.0",
     "python-gitlab>=4.1.0",
     "python-dotenv>=1.0.0",
-    "Jinja2>=3.1.6"
+    "Jinja2>=3.1.6",
+    "typing-extensions>=4.0.0",
 ]
 
 [project.scripts]

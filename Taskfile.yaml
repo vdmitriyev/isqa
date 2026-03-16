@@ -1,6 +1,7 @@
 version: '3'
 
 includes:
+  git: ./taskfiles/Taskfile_git.yml
   pre-commit: ./taskfiles/Taskfile_pre_commit.yml
   
 tasks:

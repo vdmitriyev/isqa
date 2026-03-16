@@ -4,11 +4,20 @@
 
 `isqa` is a CLI utility designed to help you manage issues of a GitLab repository.
 
+## Installation
+
+* (option 1) Clone this repo and follow `development setup`
+* (option 2) Directly install (`TestPyPI`)
+    ```
+    pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ --upgrade isqa
+    ```
+* Check `configuration` afterward
+    
 ##  Development Setup
 
 This guide walks through setting up the project for local development using `uv`.
 
-1. Ccreate a new virtual environment in a `.venv` directory and activates it.
+1. Create a new virtual environment in a `.venv` directory and activates it.
     ```bash
     uv venv
     ```
@@ -26,7 +35,7 @@ This guide walks through setting up the project for local development using `uv`
     ```bash
     uv pip install -e .
     ```
-
+    
 ##  Configuration
 
 This tool requires access to your GitLab repository (*scopes*: `api`, `read_api`). It uses a `.env` file to securely load your API credentials.
