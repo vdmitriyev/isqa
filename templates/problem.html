@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitlab Issues problems: {{ repository_name}} </title>
+    <style>
+        /* General Reset & Body Styles */
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #f6f6f6; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+        /* Container Styles */
+        .container { max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); }
+
+        /* Content Area */
+        .content { padding: 30px; color: #333333; line-height: 1.6; }
+        .content p { margin: 0 0 15px 0; }
+
+        /* Footer Styles */
+        .footer { text-align: center; padding: 20px; font-size: 12px; color: #999999; border-top: 1px solid #eeeeee; }
+        .footer p { margin: 0; }
+    </style>
+</head>
+<body>
+    <div style="background-color: #f6f6f6; padding: 20px 0;">
+        <div class="container">
+
+            <div class="content">
+                <p>Dear {{ user_name }}, </p>
+
+                <p>Notification about the Gitlab repository: <b>{{repository_name}}</b></p>
+
+                <p>There is a problem with the following GitLab issues:</p>
+
+                    {{ issues_block }}
+
+                <p style="margin-top: 30px;">If you think that you should not have received this email, contact your manager.</p>
+
+                <p>Best Regards,</p>
+                <p>{{team_name}}</p>
+            </div>
+
+            <div class="footer">
+                <p>Automatic notification from `isqa`</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
