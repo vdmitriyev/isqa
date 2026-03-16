@@ -118,3 +118,11 @@ Here is a list of examples demonstrating the core features of the utility:
 ## Note
 
 In order to get emails notifications, each user must set his/her email as `public` inside the own profile, or `admin` will be getting the emails.
+
+## Documentation
+
+[Documentation](https://vdmitriyev.github.io/isqa/)
+
+## License
+
+[MIT](https://github.com/vdmitriyev/isqa/blob/main/LICENSE)
