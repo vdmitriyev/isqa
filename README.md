@@ -4,6 +4,8 @@
 
 `isqa` is a CLI utility designed to help you manage issues of a GitLab repository.
 
+The intended use is to use `cron` or a similar approach to run the CLI in the background with a time interval. For insstance, a version running in th docker can use the following docker job scheduler: [mcuadros/ofelia](https://github.com/mcuadros/ofelia)
+
 ## Installation
 
 * (option 1) Clone this repo and follow `development setup`
