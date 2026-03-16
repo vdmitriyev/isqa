@@ -25,6 +25,13 @@ dependencies = [
 [project.scripts]
 isqa = "isqa.cli:app"
 
+[project.urls]
+
+homepage = "https://github.com/vdmitriyev/isqa"
+changelog = "https://github.com/vdmitriyev/isqa/blob/main/HISTORY.rst"
+repository = "https://github.com/vdmitriyev/isqa.git"
+documentation = "https://vdmitriyev.github.io/isqa/"
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["isqa*"]
