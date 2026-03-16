@@ -113,7 +113,7 @@ Here is a list of examples demonstrating the core features of the utility:
 
 ## CLI UI
 
-![alt text](docs/cli-ui.png)
+![alt text](https://raw.githubusercontent.com/vdmitriyev/isqa/main/docs/cli-ui.png)
 
 ## Note
 

@@ -2,7 +2,12 @@
 History
 =======
 
-0.5.3(2026-03-16)
+0.5.4 (2026-03-16)
+------------------
+
+* Fix the issue with the image URL on Test PyPI.
+
+0.5.3 (2026-03-16)
 ------------------
 
 * Fix the issue with missing email templates in .txt format
