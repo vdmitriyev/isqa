@@ -1,4 +1,4 @@
-## About
+## 📢 About
 
 > A CLI utility for quality assurance of GitLab issues. Name `isqa` is comes from merging the term `issues` and `quality assurance `.
 
@@ -6,7 +6,7 @@
 
 The intended use is to use `cron` or a similar approach to run the CLI in the background with a time interval. For insstance, a version running in th docker can use the following docker job scheduler: [mcuadros/ofelia](https://github.com/mcuadros/ofelia)
 
-## Installation
+## 📦 Installation
 
 * (option 1) Clone this repo and follow `development setup`
 * (option 2) Directly install (`TestPyPI`)
@@ -15,7 +15,7 @@ The intended use is to use `cron` or a similar approach to run the CLI in the ba
     ```
 * Check `configuration` afterward
     
-##  Development Setup
+## 🧩 Development Setup
 
 This guide walks through setting up the project for local development using `uv`.
 
@@ -38,7 +38,7 @@ This guide walks through setting up the project for local development using `uv`
     uv pip install -e .
     ```
     
-##  Configuration
+## ⚙️ Configuration
 
 This tool requires access to your GitLab repository (*scopes*: `api`, `read_api`). It uses a `.env` file to securely load your API credentials.
 
@@ -59,11 +59,11 @@ This tool requires access to your GitLab repository (*scopes*: `api`, `read_api`
     nano extra.env
     ```
 
-## Usage
+## 🌟 Usage
 
 Once installed, the `isqa` command is available directly in your terminal.
 
-**NOTE:** In case you want to work with multiple repositories, then you need to create a multiple `.env` file and pass them to CLI explicitly.
+**NOTE:** In case you want to work with multiple repositories, then you need to create multiple `.env` files. Then each `.env` file could be explicitly passed/injected into CLI via parameter.
 
 Because it's a typer application, you can explore all its commands and options by simply running:
 
@@ -72,7 +72,7 @@ Because it's a typer application, you can explore all its commands and options b
     isqa --help
     ```
 
-Here is a list of examples demonstrating the core features of the utility:
+Here is a list of examples, which demonstrate the core features of the utility:
 
 * List board issues
     ```
@@ -117,7 +117,7 @@ Here is a list of examples demonstrating the core features of the utility:
 
 ## Note
 
-In order to get emails notifications, each user must set his/her email as `public` inside the own profile, or `admin` will be getting the emails.
+In order to get emails notifications, each Gitlab user must set his/her email as `public` inside the personal Gitlab profile (this could be differ according to your Gitlab default configurations). Otherwise only configured in the `.env` file `admin` will receive notification emails.
 
 ## Documentation
 
