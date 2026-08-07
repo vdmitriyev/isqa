@@ -1,20 +1,22 @@
 ## 📢 About
 
-> A CLI utility for quality assurance of GitLab issues. Name `isqa` is comes from merging the term `issues` and `quality assurance `.
+![PyPI - Version][def] ![PyPI - License](https://img.shields.io/pypi/l/isqa?style=flat) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isqa?style=flat)
 
 `isqa` is a CLI utility designed to help you manage issues of a GitLab repository.
+
+> This CLI utility could be used for quality assurance of GitLab issues. Name `isqa` is comes from merging the term `issues` and `quality assurance `.
 
 The intended use is to use `cron` or a similar approach to run the CLI in the background with a time interval. For insstance, a version running in th docker can use the following docker job scheduler: [mcuadros/ofelia](https://github.com/mcuadros/ofelia)
 
 ## 📦 Installation
 
-* (option 1) Clone this repo and follow `development setup`
-* (option 2) Directly install (`TestPyPI`)
+* Install using pip
     ```
-    pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ --upgrade isqa
+    pip install --upgrade isqa
     ```
-* Check `configuration` afterward
+* Check `configuration` section afterward
     
+
 ## 🧩 Development Setup
 
 This guide walks through setting up the project for local development using `uv`.
