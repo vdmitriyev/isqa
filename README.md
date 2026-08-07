@@ -1,6 +1,7 @@
 ## 📢 About
 
-![PyPI - Version][def] ![PyPI - License](https://img.shields.io/pypi/l/isqa?style=flat) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isqa?style=flat)
+![PyPI Version](https://img.shields.io/pypi/v/isqa?style=flat)
+![PyPI License](https://img.shields.io/pypi/l/isqa?style=flat) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/isqa?style=flat)
 
 `isqa` is a CLI utility designed to help you manage issues of a GitLab repository.
 

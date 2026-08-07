@@ -2,6 +2,16 @@
 History
 =======
 
+0.6.2 (2026-08-08)
+------------------
+
+* Fix shields/badges in the README.
+
+0.6.1 (2026-08-08)
+------------------
+
+* Add shields/badges to the README.
+
 0.6.0 (2026-08-08)
 ------------------
 
