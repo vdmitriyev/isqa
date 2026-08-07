@@ -23,18 +23,20 @@ dependencies = [
     "typing-extensions>=4.0.0",
 ]
 classifiers = [
-    "Development Status :: 4 - Beta",
+    "Development Status :: 3 - Alpha",
     "Environment :: Console",
-    "Intended Audience :: System Administrators",
+    "Intended Audience :: Developers",    
     "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Programming Language :: Python :: Implementation :: PyPy",
-    "Topic :: System :: Monitoring",
-    "Topic :: Utilities"
+    "Programming Language :: Python :: 3.13",    
+    # Topic Focus
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Utilities",
 ]
 license = "MIT"
 
